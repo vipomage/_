@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7xxx.Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+<div class="top-tab text-center display-5">
+    <h3 class="main-logo text-center"><a href="#">7xxx.club</a></h3>
+    <!--<nav class="nav main-nav">-->
+        <!--<ul class="nav-ul">-->
+            <!--<li>Play</li>-->
+            <!--<li>How it works</li>-->
+            <!--<li>FAQs</li>-->
+        <!--</ul>-->
+    <!--</nav>-->
+</div>
+<h1 class="main-heading text-center">THE BEST ETHEREUM GAME IN THE UNIVERSE!</h1>
+<div class="icon-wrapper row">
+    <div class="col-sm-4">
+        <i class="fas fa-user-times"></i>
+        <h3>No user sign-up required</h3>
+    </div>
+    <div class="col-sm-4">
+        <i class="fab fa-mixcloud"></i>
+        <h3>Everything is done by the contract no 3rd party included</h3>
+    </div>
+    <div class="col-sm-4">
+        <i class="fas fa-exchange-alt"></i>
+        <h3>Simple entry </h3>
+    </div>
+</div>
+<main class="wrapper p-2 text-center m-5">
+    <div class="container ">
+        <h2>70% Chance Overall : <br> 60% Chance to win x1.25 and 10% chance to win x2 </h2>
+        <hr>
+        <header class="row m-4 ">
+            <div class="col-md-4 text-center ">
+                <h4>Step 1</h4>
+                <p>Send <em style="color: orangered;text-transform: uppercase">exact</em> ETH to a Game Address below with at least
+                    <em><b>250 000</b></em> Gas
+                    .</p>
+            </div>
+            <div class="col-md-4 text-center border-to-right-to-left p-2">
+                <h4>Step 2</h4>
+                <p><b>6</b> Randomly chosen players wins x<b>1.25</b> the game amount</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h4>Step 3</h4>
+                <p>The moment 10th player enters the game - contract draws winners and send awards </p>
+            </div>
+        </header>
+        <hr>
+        <div class="row">
+            <div class="game col-md-4 p-1">
+                <h4 class="display-4">0.005 ETH</h4>
+                <p class="contract-address ">Contract Address:<br><code class="code" onclick="copyToClipboard()">
+                    0x901E14f0d95d297bE38F556638eE3bC1533429fD</code><br> <a
+                        href="https://etherscan.io/address/0x901e14f0d95d297be38f556638ee3bc1533429fd">Etherscan</a></p>
+                <img class="m-3 border" src="img/QR_Codes/0.005EthQR.png">
+            </div>
+            <div class="game col-md-4 p-1 ">
+                <h4 class="display-4">0.05 ETH</h4>
+                <p class="contract-address ">Contract Address:<br><code class="code" onclick="copyToClipboard()">
+                    0xB1C80C3E38fbA1374b385Df620f981797E259942</code><br><a
+                        href="https://etherscan.io/address/0xB1C80C3E38fbA1374b385Df620f981797E259942">Etherscan</a></p>
+                <img class="m-3 border" src="img/QR_Codes/0.05EthQR.png">
+            </div>
+            <div class="game col-md-4 p-1">
+                <h4 class="display-4"><span>0.1 ETH</span></h4>
+                <p class="contract-address ">Contract Address:<br><code class="code" ondblclick="copyToClipboard()">
+                    NOT ACTIVE FOR THE MOMENT</code><br> <a href="#">Etherscan</a></p>
+                <img style="transform: scale(0.6)" class="m-3 border" src="img/QR_Codes/Placeholder_QR_Code_1.jpg">
+            </div>
+        </div>
+    </div>
+    <script>
+        function copyToClipboard() {
+            document.execCommand('copy');
+        }
+    </script>
+</main>
+</body>
+</html>
