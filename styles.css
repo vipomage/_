@@ -1,4 +1,38 @@
 /* latin-ext */
+@media screen and (max-width: 1000px) {
+
+    div.container div.row {
+        display: block;
+        }
+
+    div.game {
+        width: 80%;
+    !important;
+        max-width: none;
+        margin: auto;
+        }
+    body{
+        background-size: contain;!important;
+        background-repeat: no-repeat;!important;
+        }
+    body > h1{
+        margin: auto;
+        padding: 40px;
+
+        }
+    body > div.icon-wrapper.row > div{
+        transform: scale(0.7);
+        }
+    body > main > div > header > div.col-md-4.text-center.border-to-right-to-left.p-2{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: none;
+        border-left: none;
+
+        }
+    }
+
+
 *{
     margin: 0;
     padding: 0;
